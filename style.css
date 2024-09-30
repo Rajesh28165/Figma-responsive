@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.logo img{
+    width:114px;
+    height:40px;
+    margin:10px 0 0 80px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+.navbar .login {
+    margin-top: 10px;;
+    width:60px;
+    height:30px;
+    border: 2px solid #f00;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #f00;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.hero-content h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.hero-content p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.form button {
+    background-color: #f00;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.job-roles {
+    padding: 50px;
+    text-align: center;
+}
+
+.job-roles h3 {
+    margin-bottom: 20px;
+}
+
+.roles span {
+    display: inline-block;
+    background-color: #f0f0f0;
+    color: blue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    font-weight: 500;
+}
+.why-hire {
+    padding: 50px;
+    text-align: center;
+}
+
+.why-hire .reasons {
+    padding: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F6EDE7;
+    gap: 15px;
+}
+
+.why-hire .reason {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.apply-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ED0331;
+    border-radius: 2px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
